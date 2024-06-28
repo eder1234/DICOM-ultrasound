@@ -1,6 +1,6 @@
 # DICOM Frame Extraction and Cropping
 
-This project processes DICOM files to extract all frames, normalize them, crop the central 400x400 pixels of each frame, and save these cropped images in separate directories named after the original DICOM files.
+This project processes DICOM files to extract all frames, normalize them, crop the central 430x430 pixels of each frame, and save these cropped images in separate directories named after the original DICOM files. The cropping process is intended to remove the text from the original images while keeping the image ratio and relevant information. You can adjust the center size in the code.
 
 ## Setup
 
