@@ -3,8 +3,7 @@
 This project processes DICOM files to extract all frames, normalize them, crop the central 430x430 pixels of each frame, and save these cropped images in separate directories named after the original DICOM files. The cropping process is intended to remove the text from the original images while keeping the image ratio and relevant information. You can adjust the center size in the code.
 
 ## Setup
-
-To set up the project environment, follow these steps:
+The project was tested on Ubuntu 18.04. To set up the project environment, follow these steps:
 
 1. **Create a conda environment named `ultrasound` with Python 3.9**:
     ```bash
@@ -31,7 +30,7 @@ To run the script and process the DICOM files:
     python process_dicoms_to_cropped_images.py
     ```
 
-This script will process each DICOM file in the current directory, extract all frames, normalize and crop the central 400x400 pixels, and save the cropped images in a new directory named after the original DICOM file.
+This script will process each DICOM file in the current directory, extract all frames, normalize and crop the central 430x430 pixels, and save the cropped images in a new directory named after the original DICOM file.
 
 ## Example
 
